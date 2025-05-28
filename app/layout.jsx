@@ -1,6 +1,11 @@
 import Link from "next/link"
 import Navbar from "../components/Navbar"
 
+export const metadata = {
+  title: "Mi tienda con Next js - Home page",
+  description: "Esta es la pagina principal de mi tienda",
+  keywords: "tienda, online, ecommerce",
+}
 
 export default function RootLayout({ children }) {
   return (
